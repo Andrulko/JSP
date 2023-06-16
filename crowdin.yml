@@ -1,0 +1,9 @@
+files:
+  - source: /**/*.json
+    ignore:
+      - /**/translations/*.json
+    translation: /**/translations/%file_name%_%two_letters_code%.json
+  - source: /**/*.properties
+    ignore:
+      - /**/translations/*.properties
+    translation: /**/translations/%file_name%_%two_letters_code%.properties
